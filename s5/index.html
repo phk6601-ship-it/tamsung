@@ -533,7 +533,6 @@ input{font-family:var(--sans)}
   .dwords{grid-template-columns:repeat(2,1fr)}
   .wc{min-width:96px;padding:10px 10px}
 }
-
 /* ===== 5편 전용 ===== */
 .telegram.moor{background:radial-gradient(ellipse at 40% 25%,#3c4a3a,#1a221b);outline:1.5px solid #9fb38a;outline-offset:-9px}
 .telegram.moor .tt{color:#d9e6c4;letter-spacing:.3em}.telegram.moor .ur{border-color:#e07b5f;color:#e07b5f}.telegram.moor .to{color:#c9d6b4}
@@ -542,15 +541,6 @@ input{font-family:var(--sans)}
 .inkd{display:flex;justify-content:center;gap:clamp(14px,5vw,30px)}
 .inkd span{font-family:var(--pen);font-size:clamp(58px,13vw,90px);line-height:1;text-shadow:0 0 1px rgba(0,0,0,.6)}
 .inkcard small{display:block;margin-top:8px;font-family:var(--type);letter-spacing:.15em;color:#9aa58b}
-.tombw{display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:center}
-.tomb{width:min(320px,100%);height:auto}
-.plaque{background:#3b3f36;color:#e9e1c6;border:3px solid #6f7a63;border-radius:6px;padding:12px 14px;font-family:var(--sans);text-align:center;max-width:250px}
-.plaque b{display:block;margin-bottom:8px;letter-spacing:.1em}
-.rom{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
-.rom span{background:rgba(255,255,255,.08);border-radius:4px;padding:4px 2px;font-size:13px}
-.rom i{display:block;font-style:normal;font-family:var(--display);font-weight:900;font-size:20px;color:#f0d48a}
-.plaque small{display:block;margin-top:8px;color:#c9c2a8}
-.mirror{display:block;width:min(300px,80%);height:auto;margin:0 auto}
 .chainw{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 6px;background:#8e958c;border:4px solid #5f665d;border-radius:8px;padding:18px 12px;max-width:640px;margin:0 auto;box-shadow:inset 0 0 30px rgba(0,0,0,.25)}
 .chainw .cw{font-family:var(--type);font-weight:700;font-size:clamp(18px,3.8vw,24px);color:#23271f;letter-spacing:.08em}
 .chainw b{color:#3d433b;font-size:20px}
@@ -560,53 +550,48 @@ input{font-family:var(--sans)}
 .eqr{display:grid;grid-template-columns:1fr auto 70px;gap:12px;align-items:center;padding:6px 0;font-size:clamp(28px,6vw,38px);color:#f3f1e6;font-family:var(--pen)}
 .eqr span:first-child{text-align:right;letter-spacing:.06em}
 .eqr .qq{color:#ffb3a4}
-.mapw{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:flex-start}
-.mapg{display:grid;grid-template-columns:28px repeat(5,1fr);gap:3px;background:#d6c493;border:3px solid #6b4a2c;padding:8px;border-radius:4px;width:min(340px,100%)}
-.mapg span{aspect-ratio:1;display:flex;align-items:center;justify-content:center;background:#efe2bd;font-family:var(--serif);font-weight:800;font-size:clamp(18px,4vw,24px);color:#2b2016;border-radius:2px}
-.mapg span.lb{background:transparent;font-family:var(--type);font-size:14px;color:#6b4a2c;aspect-ratio:auto}
-.mapg span.st{background:#a32a20;color:#ffe9a8}
-.mapside{display:flex;flex-direction:column;gap:10px;max-width:250px}
-.cmp{font-family:var(--display);font-weight:900;font-size:22px;text-align:center;color:#a32a20;line-height:1}
-.route{background:#fbf6e6;border:1px solid #cdb98c;padding:12px 14px;font-family:var(--sans);font-size:15px;box-shadow:2px 3px 0 rgba(120,90,50,.15)}
-.route ol{margin:6px 0 6px;padding-left:22px;line-height:1.7}
-.route small{color:#8f241b;font-weight:700}
-.grillew{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;align-items:center}
-.gwrap{position:relative;width:min(330px,100%)}
-.ggrid{display:grid;grid-template-columns:repeat(6,1fr);gap:3px;background:#8e958c;border:4px solid #5f665d;border-radius:6px;padding:6px}
-.ggrid span{aspect-ratio:1;display:flex;align-items:center;justify-content:center;background:#d9d6c8;font-family:var(--serif);font-weight:800;font-size:clamp(17px,4vw,23px);color:#23271f;border-radius:2px}
-.gcard{position:absolute;inset:4px;display:grid;grid-template-columns:repeat(6,1fr);gap:3px;padding:6px;animation:pop .25s ease}
-.gcard[hidden]{display:none}
-.gcard i{background:#5a3d24;border-radius:2px;box-shadow:0 0 0 1.5px #5a3d24}
-.gcard i.h{background:transparent;box-shadow:inset 0 0 0 3px #f0d48a;border-radius:50%}
-.garrow{position:absolute;left:50%;top:50%;font-family:var(--sans);font-size:44px;color:#f0d48a;font-style:normal;line-height:1;transition:transform .3s}
-.gside{display:flex;flex-direction:column;gap:10px;align-items:stretch}
-.cmp2{background:#fbf6e6;border:2px solid #a32a20;border-radius:6px;padding:8px 14px;text-align:center;font-family:var(--sans)}
-.cmp2 span{display:block;font-family:var(--display);font-weight:900;font-size:26px;color:#a32a20}
-.cmp2 small{color:#6b5734}
-.mire{display:block;width:min(560px,100%);height:auto;margin:0 auto;border-radius:8px;border:4px solid #2a1b0e}
-.wheelw{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;align-items:center}
-.wheel{width:min(300px,86%);height:auto}
-.wheel .inner{transition:transform .3s}
-.wside{display:flex;flex-direction:column;gap:10px;max-width:250px}
-.cnote{background:#fbf6e6;border:1px solid #cdb98c;padding:12px;text-align:center;font-family:var(--sans);box-shadow:2px 3px 0 rgba(120,90,50,.15)}
-.cnote small{display:block;color:#8a7350;letter-spacing:.15em;font-family:var(--type)}
-.cnote b{display:block;font-family:var(--type);font-size:clamp(22px,4.6vw,28px);letter-spacing:.12em;color:#2b2016;margin:6px 0}
-.cnote span{font-size:14px;color:#8f241b;font-weight:700}
-.wbtn{display:flex;gap:8px;justify-content:center}.wbtn .btn{padding:10px 12px;font-size:14px}
-.uvwall{position:relative;height:clamp(260px,46vw,340px);max-width:640px;margin:0 auto;border-radius:6px;overflow:hidden;border:4px solid #2a1b0e;background:repeating-linear-gradient(0deg,#3a2f28 0 2px,transparent 2px 34px),repeating-linear-gradient(90deg,#3a2f28 0 2px,transparent 2px 70px),#4a3c33;transition:filter .3s}
-.uvwall.on{filter:brightness(.45) saturate(.6);cursor:none;touch-action:none}
 .chalkl span{position:absolute;font-family:var(--pen);font-size:clamp(30px,6vw,44px);color:rgba(240,235,220,.55);transform:translate(-50%,-50%)}
-.uvlayer{position:absolute;inset:0;--x:-300px;--y:-300px;-webkit-mask-image:radial-gradient(circle 80px at var(--x) var(--y),#000 55%,transparent 100%);mask-image:radial-gradient(circle 80px at var(--x) var(--y),#000 55%,transparent 100%);opacity:0;background:radial-gradient(circle 80px at var(--x) var(--y),rgba(140,90,255,.35),transparent 100%)}
-.uvwall.on .uvlayer{opacity:1}
-.uvwall.on{filter:none}
-.uvwall.on::before{content:'';position:absolute;inset:0;background:rgba(0,0,0,.55)}
-.uvlayer span{position:absolute;transform:translate(-50%,-50%);font-family:var(--pen);font-size:clamp(40px,8vw,58px);color:#9dffb8;text-shadow:0 0 8px #5cff9a,0 0 18px #5cff9a;text-align:center;line-height:1}
-.uvlayer em{display:flex;gap:2px;justify-content:center}
-.uvlayer em svg{width:18px;height:18px;fill:#9dffb8;filter:drop-shadow(0 0 4px #5cff9a)}
-.uvbtn{display:block;margin:12px auto 0}
-
 .finale .shut{transition:transform 1.8s cubic-bezier(.4,0,.2,1)}
 .finale.open .shut{transform:translateY(-165px)}
+.shelfw{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-end;justify-content:center}
+.rainbow{width:min(200px,60%);height:auto}
+.shelf{display:flex;gap:6px;align-items:flex-end;background:linear-gradient(#6b4a2c,#4a3220);padding:14px 14px 0;border-radius:4px 4px 0 0;border-bottom:12px solid #3c2816;box-shadow:inset 0 10px 20px rgba(0,0,0,.35)}
+.book{width:clamp(46px,9vw,62px);height:clamp(190px,34vw,240px);border-radius:3px 3px 0 0;display:flex;align-items:center;justify-content:center;box-shadow:inset 0 0 0 2px rgba(0,0,0,.15)}
+.book:nth-child(2){height:clamp(170px,31vw,215px)}.book:nth-child(4){height:clamp(200px,36vw,250px)}
+.book span{writing-mode:vertical-rl;font-family:var(--serif);font-weight:800;font-size:clamp(15px,3vw,19px);color:#fff8e6;letter-spacing:.12em;text-shadow:0 1px 2px rgba(0,0,0,.4)}
+.rcode{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:center;margin-top:14px;font-family:var(--sans)}
+.rcode div{background:#fbf6e6;border:2px solid #3a2d20;border-radius:6px;padding:8px 14px;font-size:clamp(18px,3.8vw,22px)}
+.rcode .rc{font-weight:900;letter-spacing:.12em;color:#8f241b}.rcode b{margin-left:6px}.rcode b.q{color:#a32a20}
+.cavew{display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:center}
+.cave{width:min(320px,100%);height:auto;border-radius:8px;border:3px solid #2a1b0e}
+.note2{max-width:300px;background:#fbf6e6;border:1px solid #cdb98c;padding:14px 16px;font-size:16px;line-height:1.75;box-shadow:2px 3px 0 rgba(120,90,50,.15)}
+.note2 b{font-family:var(--sans);display:block;margin-bottom:4px;color:#3a2d20}.note2 p{margin:6px 0}.note2 em{font-style:normal;color:#a32a20;font-weight:700}
+.dirwall{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;max-width:460px;margin:0 auto;background:#8a8273;border:4px solid #5f5a4f;border-radius:8px;padding:16px;box-shadow:inset 0 0 30px rgba(0,0,0,.3)}
+.dw{display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.12);border-radius:6px;padding:10px 12px;font-family:var(--type);color:#1f1c17}
+.dw .ar{font-family:var(--sans);font-weight:900;font-size:30px;color:#2b5f3a;text-shadow:0 0 6px rgba(124,255,168,.8)}
+.dw b{font-size:clamp(20px,4vw,26px);letter-spacing:.1em}.dw i{white-space:nowrap;font-style:normal;margin-left:auto;font-size:clamp(18px,3.6vw,22px);color:#7a1d16}
+.dirnote{text-align:center;font-family:var(--pen);font-size:26px;color:#5c4c3a;margin:10px 0 0}
+.shop{max-width:460px;margin:0 auto;background:#fbf3df;border:3px solid #6b4a2c;border-radius:8px;padding:16px 18px;text-align:center;font-size:17px;line-height:1.7;box-shadow:0 6px 14px rgba(0,0,0,.15)}
+.shop h4{margin:0 0 10px;font-family:var(--serif);font-weight:800;font-size:20px;color:#5a3a1c}
+.goods{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:8px;font-family:var(--sans)}
+.goods div{display:flex;flex-direction:column;align-items:center}.goods div span{font-size:40px}.goods b{font-size:14px}
+.goods .plus{font-size:28px;font-weight:900;color:#5c4c3a}
+.goods .price{font-size:34px;font-weight:900;color:#a32a20}.goods .price small{font-size:14px;color:#5c4c3a}
+.shop p{margin:6px 0}.shop em{font-style:normal;color:#a32a20;font-weight:700}
+.farm{max-width:520px;margin:0 auto;background:#e3edc9;border:3px solid #6b7d3a;border-radius:8px;padding:14px 16px;text-align:center;font-family:var(--sans)}
+.frow{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 10px;align-items:center;font-size:clamp(14px,3vw,17px);padding:8px;border-bottom:1px dashed #9aa86a}
+.frow span{font-size:clamp(18px,4vw,24px);letter-spacing:-.05em}.frow i{font-style:normal;background:#6b7d3a;color:#fff;border-radius:999px;padding:2px 10px;font-weight:700}
+.frow.q b{color:#a32a20}
+.farm p{margin:10px 0 0;font-family:var(--serif);font-size:16px;line-height:1.7}
+.menuw{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;align-items:center}
+.menu{border-collapse:collapse;background:#fbf6e6;font-family:var(--sans);font-size:clamp(12px,2.6vw,14px);box-shadow:0 6px 14px rgba(0,0,0,.15)}
+.menu th{background:#3a2d20;color:#f0d48a;padding:6px 8px;font-size:13px}.menu td{border:1px solid #cdb98c;padding:10px 6px;text-align:center;width:72px;word-break:keep-all;line-height:1.35}
+.blk{background:linear-gradient(#5d6a72,#3d474e);border-radius:10px;padding:12px;text-align:center;border:3px solid #2a3136}
+.blk small{display:block;color:#d9e1e5;font-family:var(--sans);font-size:12px;margin-bottom:8px;letter-spacing:.1em}
+.bgr{display:grid;grid-template-columns:repeat(5,40px);gap:6px}
+.bgr span{height:40px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#f3f6f8,#9aa6ad);display:flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:900;color:#23272b;box-shadow:0 3px 0 #1d2226}
+.sticky2{max-width:340px;margin:16px auto 0;background:#f7e48a;color:#3b3214;padding:10px 14px;font-family:var(--pen);font-size:clamp(23px,4.4vw,27px);line-height:1.3;transform:rotate(-1.5deg);box-shadow:0 6px 10px rgba(0,0,0,.3);text-align:center}
+@media (max-width:640px){.dirwall{grid-template-columns:1fr}.menu td{width:auto;padding:8px 3px}}
 .tocl{display:inline-block;margin:4px 0 0;font-family:var(--sans);font-size:14px;font-weight:700;color:#c9b48a;text-decoration:none;border:1px solid rgba(185,138,62,.5);border-radius:999px;padding:6px 14px;background:rgba(20,15,11,.6)}
 .tocl:hover{color:#f0d48a}
 #hud:not([hidden])+.tocl{display:none}
@@ -760,55 +745,34 @@ const SHADOW=`<svg viewBox="0 0 160 200"><defs><radialGradient id="lan"><stop of
  <circle cx="72" cy="70" r="2.6" fill="#e9e1c6"/><circle cx="88" cy="70" r="2.6" fill="#e9e1c6"/><path d="M118 120v24" stroke="#5b4a36" stroke-width="3"/><rect x="118" y="142" width="20" height="24" rx="4" fill="#ffd36a" stroke="#5b4a36" stroke-width="3"/></svg>`;
 function inkCard(){const D=[['2','#ffffff'],['1','#ff8c1a'],['3','#3b82f6'],['5','#22c55e'],['3','#ef4444']];
  return `<div class="inkcard"><p>‘황야에 가까이 가지 마라.’</p><div class="inkd">${D.map(([d,c])=>`<span style="color:${c}">${d}</span>`).join('')}</div><small>— 이름 없는 경고</small></div>`}
-function tombSVG(){return `<svg class="tomb" viewBox="0 0 360 330"><rect x="0" y="282" width="360" height="48" fill="#3d4a33"/><path d="M80 290V120a100 100 0 0 1 200 0v170z" fill="#8e958c" stroke="#5f665d" stroke-width="5"/>
- <path d="M96 290V124a84 84 0 0 1 168 0v166" fill="none" stroke="#a7ada3" stroke-width="2"/><path d="M180 52v40M164 66h32" stroke="#5f665d" stroke-width="7" stroke-linecap="round"/>
- <text x="180" y="140" text-anchor="middle" font-family="Playfair Display,serif" font-weight="900" font-size="20" fill="#3d433b" letter-spacing="2">HUGO</text><text x="180" y="166" text-anchor="middle" font-family="Playfair Display,serif" font-weight="900" font-size="20" fill="#3d433b" letter-spacing="2">BASKERVILLE</text>
- <text x="180" y="222" text-anchor="middle" font-family="Playfair Display,serif" font-weight="900" font-size="34" fill="#2e332c" letter-spacing="3">MDCCXLII</text>
- <path d="M82 230c20 10 18 30 6 40M270 120c-14 8-10 26 4 30" stroke="#4f7a3a" stroke-width="5" fill="none" stroke-linecap="round"/><circle cx="92" cy="244" r="5" fill="#5f8f45"/><circle cx="86" cy="262" r="5" fill="#5f8f45"/><circle cx="268" cy="134" r="5" fill="#5f8f45"/></svg>
- <div class="plaque"><b>옛 숫자 읽는 법</b><div class="rom">${[['I',1],['V',5],['X',10],['L',50],['C',100],['D',500],['M',1000]].map(([a,b])=>`<span><i>${a}</i>${b}</span>`).join('')}</div><small>예) XIV = 14 &nbsp;·&nbsp; IV = 4</small></div>`}
-function mirrorSVG(){const cx=150,cy=170,R=78;let s='';
- for(let k=1;k<=12;k++){const a=(k*30-90)*Math.PI/180;s+=`<text x="${(cx+Math.cos(a)*(R-16)).toFixed(1)}" y="${(cy+Math.sin(a)*(R-16)+6).toFixed(1)}" text-anchor="middle" font-family="Playfair Display,serif" font-weight="900" font-size="17" fill="#2b2016">${k}</text>`}
- const hand=(deg,len,w)=>{const a=(deg-90)*Math.PI/180;return `<line x1="${cx}" y1="${cy}" x2="${(cx+Math.cos(a)*len).toFixed(1)}" y2="${(cy+Math.sin(a)*len).toFixed(1)}" stroke="#1a1410" stroke-width="${w}" stroke-linecap="round"/>`};
- return `<svg class="mirror" viewBox="0 0 300 340"><ellipse cx="150" cy="170" rx="142" ry="164" fill="#7a5530"/><ellipse cx="150" cy="170" rx="128" ry="150" fill="#c9a24a"/><ellipse cx="150" cy="170" rx="118" ry="140" fill="#b7c9cf"/>
- <g transform="translate(300 0) scale(-1 1)"><circle cx="${cx}" cy="${cy}" r="${R+8}" fill="#5e3f24"/><circle cx="${cx}" cy="${cy}" r="${R}" fill="#f6efdc"/>${s}${hand(287.5,R*.5,5)}${hand(210,R*.75,3.4)}<circle cx="${cx}" cy="${cy}" r="4" fill="#a32a20"/></g>
- <path d="M70 70c30-30 70-40 100-36M64 96c10-14 22-22 34-26" stroke="rgba(255,255,255,.55)" stroke-width="7" fill="none" stroke-linecap="round"/></svg>`}
 function chainHTML(){const box=n=>`<span class="cbx">${'<i></i>'.repeat(n)}</span>`;
  return `<div class="chainw"><span class="cw">SEVEN</span><b>→</b>${box(4)}<b>→</b><span class="cw">EIGHT</span><b>→</b>${box(3)}<b>→</b>${box(3)}<b>→</b><span class="cw">ELEVEN</span></div><p class="tip" style="font-size:14px">빈칸에는 모두 <b>숫자 이름</b>이 들어간다</p>`}
-function eqHTML(){const R=[['🐕 + 🐕','12'],['🐕 + 🐈','9'],['🐈 + 🦉','5'],['🐕 × 🦉 + 🐈','?']];
- return `<div class="chalk">${R.map(([a,b])=>`<div class="eqr"><span>${a}</span><b>=</b><span class="${b==='?'?'qq':''}">${b}</span></div>`).join('')}</div>`}
-const MAP=['황야검늪은','달빛돌길풀','숲비★밤별','위언덕바굴','탑들안개새'];
-function mapHTML(){
- return `<div class="mapw"><div class="mapg"><span></span>${'ABCDE'.split('').map(c=>`<span class="lb">${c}</span>`).join('')}${MAP.map((row,r)=>`<span class="lb">${r+1}</span>${[...row].map(ch=>`<span class="${ch==='★'?'st':''}">${ch}</span>`).join('')}`).join('')}</div>
- <div class="mapside"><div class="cmp">N<br>↑</div><div class="route"><b>★에서 출발</b><ol><li>북쪽으로 2칸</li><li>동쪽으로 2칸</li><li>남쪽으로 3칸, 서쪽으로 1칸</li><li>서쪽으로 3칸</li></ol><small>멈출 때마다 그 칸의 글자를 읽어라</small></div></div></div>`}
-const GRILLE=['길오안그북물','저바새림굴택','쪽언밤풀빛들','람돌달비래된','펜개지별숲늪','길탑하안덕물'];
-const HOLES=[[2,0],[2,1],[5,4],[0,4]];
-function grilleHTML(){
- return `<div class="grillew"><div class="gwrap"><div class="ggrid">${GRILLE.map(r=>[...r].map(c=>`<span>${c}</span>`).join('')).join('')}</div><div class="gcard" hidden></div></div>
- <div class="gside"><div class="cmp2"><span>N →</span><small>이 글자판의 북쪽</small></div><button class="btn" data-g="cover">🃏 카드 덮기</button><button class="btn" data-g="rot">⟳ 카드 돌리기</button></div></div>`}
-function grilleCard(k){const rot=([r,c])=>[c,5-r];let P=HOLES.map(p=>p);for(let i=0;i<k;i++)P=P.map(rot);const set=new Set(P.map(([r,c])=>r*6+c));
- let s='';for(let i=0;i<36;i++)s+=`<i class="${set.has(i)?'h':''}"></i>`;return s+`<b class="garrow" style="transform:translate(-50%,-50%) rotate(${k*90}deg)">↑</b>`}
-function stonesSVG(){const P=[[40,250],[110,215],[170,250],[235,205],[300,240],[365,200],[430,235],[500,195]],L=['1','1','2','3','5','8','?','?'];
- let s=`<svg class="mire" viewBox="0 0 560 300"><rect width="560" height="300" fill="#2f3a2a"/>`;
- for(let k=0;k<26;k++){const x=(k*97)%560,y=30+(k*53)%250;s+=`<ellipse cx="${x}" cy="${y}" rx="${20+k%5*8}" ry="5" fill="rgba(140,170,110,.18)"/>`}
- s+=`<path d="M10 120c60-20 120 10 180-6s140-20 200 0 120 10 160-4" stroke="rgba(200,220,200,.25)" stroke-width="16" fill="none"/>`;
- P.forEach(([x,y],i)=>{const moss=L[i]==='?';s+=`<ellipse cx="${x}" cy="${y+8}" rx="34" ry="12" fill="rgba(0,0,0,.35)"/><ellipse cx="${x}" cy="${y}" rx="32" ry="20" fill="${moss?'#5d7a3a':'#9a9a8c'}" stroke="#4b4b40" stroke-width="3"/>${moss?`<path d="M${x-22} ${y-6}c8-8 14 4 22-4s14 6 22-2" stroke="#7fa34f" stroke-width="6" fill="none" stroke-linecap="round"/>`:''}<text x="${x}" y="${y+9}" text-anchor="middle" font-family="Noto Sans KR,sans-serif" font-weight="900" font-size="26" fill="${moss?'#e9f5c9':'#22251f'}">${L[i]}</text>`});
- return s+`<text x="20" y="44" font-family="Nanum Pen Script,cursive" font-size="30" fill="#e9e1c6">출발 →</text><text x="460" y="150" font-family="Nanum Pen Script,cursive" font-size="30" fill="#e9e1c6">건너편 →</text></svg>`}
-function wheelSVG(){const A='ABCDEFGHIJKLMNOPQRSTUVWXYZ',st=360/26;let o='',inn='';
- for(let i=0;i<26;i++){const a=i*st;o+=`<g transform="rotate(${a} 160 160)"><text x="160" y="36" text-anchor="middle" font-family="Special Elite,monospace" font-size="18" font-weight="700" fill="#2b2016">${A[i]}</text><line x1="160" y1="44" x2="160" y2="50" stroke="#8a7350" stroke-width="1.5"/></g>`;
-  inn+=`<g transform="rotate(${a} 160 160)"><text x="160" y="72" text-anchor="middle" font-family="Special Elite,monospace" font-size="17" font-weight="700" fill="#a32a20">${A[i]}</text></g>`}
- return `<div class="wheelw"><svg class="wheel" viewBox="0 0 320 320"><circle cx="160" cy="160" r="156" fill="#efe1bd" stroke="#6b4a2c" stroke-width="4"/><circle cx="160" cy="160" r="112" fill="#e2cf9f" stroke="#6b4a2c" stroke-width="2"/>${o}<g class="inner">${inn}</g><circle cx="160" cy="160" r="70" fill="#d4bd86" stroke="#6b4a2c" stroke-width="2"/><circle cx="160" cy="160" r="8" fill="#6b4a2c"/></svg>
- <div class="wside"><div class="cnote"><small>암호 편지</small><b>VWDSOHWRQ</b><span>열쇠 = 사냥개의 다리 수 − 1</span></div><div class="wbtn"><button class="btn" data-w="-1">◀ 왼쪽으로</button><button class="btn" data-w="1">오른쪽으로 ▶</button></div><small class="tip">바깥 글자가 암호, 그 바로 안쪽 빨간 글자가 진짜 글자</small></div></div>`}
-const PAW=`<svg viewBox="0 0 24 24"><ellipse cx="12" cy="16" rx="5" ry="4.2"/><circle cx="6" cy="10" r="2.3"/><circle cx="10" cy="6.5" r="2.3"/><circle cx="14" cy="6.5" r="2.3"/><circle cx="18" cy="10" r="2.3"/></svg>`;
-function uvHTML(){const G=[['7',1,14,28],['2',2,72,18],['9',3,40,66],['4',4,82,64],['5',0,24,76],['1',0,58,40],['8',0,90,30]];
- const C=[['3',30,40],['6',62,74],['0',8,58],['5',76,40]];
- return `<div class="uvwall"><div class="chalkl">${C.map(([d,x,y])=>`<span style="left:${x}%;top:${y}%">${d}</span>`).join('')}<span style="left:46%;top:12%;font-size:18px">개 조심!!</span></div>
- <div class="uvlayer">${G.map(([d,p,x,y])=>`<span style="left:${x}%;top:${y}%">${d}<em>${PAW.repeat(p)}</em></span>`).join('')}</div></div>
- <button class="btn uvbtn" data-uv>🔦 자외선 손전등 켜기</button>`}
 function shedSVG(){return `<svg class="finale" id="fin" viewBox="0 0 340 300"><defs><radialGradient id="gg5"><stop offset="0" stop-color="#b8ffcf" stop-opacity=".9"/><stop offset="1" stop-color="#5cff9a" stop-opacity="0"/></radialGradient></defs>
  <rect width="340" height="300" fill="#1c2420"/><path d="M40 300V110l130-70 130 70v190z" fill="#5a3d24" stroke="#2a1b0e" stroke-width="4"/><rect x="90" y="140" width="160" height="160" fill="#0d1210"/>
  <g class="glow"><circle cx="170" cy="230" r="90" fill="url(#gg5)"/></g>
  <g class="badge" stroke="#8fffb4" stroke-width="3" fill="#2d4a38" style="filter:drop-shadow(0 0 6px #5cff9a)"><path d="M116 236c-16-4-24-18-20-30" fill="none" stroke-linecap="round"/><rect x="126" y="250" width="11" height="40" rx="4"/><rect x="146" y="252" width="11" height="38" rx="4"/><rect x="178" y="252" width="11" height="38" rx="4"/><rect x="196" y="250" width="11" height="40" rx="4"/><ellipse cx="164" cy="242" rx="50" ry="24"/><path d="M200 200l-4-20 18 10z"/><circle cx="214" cy="212" r="21"/><ellipse cx="234" cy="221" rx="13" ry="9"/><circle cx="244" cy="217" r="3.5" fill="#8fffb4"/><circle cx="216" cy="206" r="3.4" fill="#f6ffb0" stroke="none"/><path d="M226 232q6 10 12 2" fill="#ff9db0" stroke="#ff9db0" stroke-width="2"/></g>
  <defs><clipPath id="dc5"><rect x="90" y="140" width="160" height="160"/></clipPath></defs><g clip-path="url(#dc5)"><g class="shut">${[0,1,2,3,4,5,6,7].map(k=>`<rect x="90" y="${140+k*20}" width="160" height="20" fill="${k%2?'#6b4a2c':'#7a5530'}" stroke="#2a1b0e" stroke-width="1.5"/>`).join('')}</g></g></svg>`}
+
+/* ---- 블로그 문제를 다시 그린 증거물 ---- */
+function booksHTML(){const B=[['삼총사','#3f9b55','#2b6b3b'],['구운몽','#3b6fd8','#274b94'],['두 도시 이야기','#d9453b','#962c25'],['오만과 편견','#f0c43a','#a8851f']];
+ return `<div class="shelfw"><svg class="rainbow" viewBox="0 0 200 110"><rect width="200" height="110" rx="6" fill="#9fd0ec"/>${['#e53935','#fb8c00','#fdd835','#43a047','#1e88e5','#3949ab','#8e24aa'].map((c,i)=>`<path d="M${20+i*7} 110a${80-i*7} ${80-i*7} 0 0 1 ${160-i*14} 0" fill="none" stroke="${c}" stroke-width="7"/>`).join('')}<rect x="98" y="0" width="4" height="110" fill="#6b4a2c"/><rect x="0" y="52" width="200" height="4" fill="#6b4a2c"/><rect width="200" height="110" rx="6" fill="none" stroke="#6b4a2c" stroke-width="8"/></svg>
+ <div class="shelf">${B.map(([t,c,d])=>`<div class="book" style="background:linear-gradient(90deg,${d},${c} 30%,${c} 70%,${d})"><span>${t}</span></div>`).join('')}</div></div>`}
+function rainbowDiary(){const L=['바람이 거세게 부는 밤이었다.','막 잠이 들려는 순간, 울음소리가 들렸다.','스산한 소리는 황야 쪽에서 들려왔다.','빌린 등불을 들고 창가로 다가갔다.','두 개의 초록 불빛이 어둠 속에서 번쩍였다.','커다란 그림자가 늪 쪽으로 사라졌다.','오늘 밤 일은 아무에게도 말하지 않겠다.'];
+ return `<div class="diary">${L.join('<br>')}</div><div class="rcode"><div><span class="rc">빨 노 남 초</span><b>= 바스커빌</b></div><div><span class="rc">보 파 주</span><b class="q">= ?</b></div></div>`}
+function heartHTML(){const R=[['4💛4','7'],['3💛7','3'],['5💛5','7'],['3💛8','6'],['2💛9','9'],['6💛7','?'],['9💛8','?']];
+ return `<div class="chalk">${R.map(([a,b])=>`<div class="eqr"><span>${a}</span><b>=</b><span class="${b==='?'?'qq':''}">${b}</span></div>`).join('')}</div>`}
+function caveHTML(){let blobs='';const P=[[70,150],[120,170],[96,128]];P.forEach(([x,y],i)=>{blobs+=`<ellipse cx="${x}" cy="${y}" rx="${18-i*3}" ry="${11-i*2}" fill="#7dffa8" opacity=".85" style="filter:drop-shadow(0 0 8px #5cff9a)"/>`});
+ return `<div class="cavew"><svg class="cave" viewBox="0 0 320 210"><rect width="320" height="210" fill="#141a17"/><path d="M0 210V90C30 30 90 10 160 12s130 18 160 78v120z" fill="#2b332e"/><path d="M40 210V110c20-40 60-62 120-62s100 22 120 62v100z" fill="#0b0f0d"/>${blobs}<ellipse cx="226" cy="168" rx="9" ry="6" fill="#7dffa8" opacity=".7" style="filter:drop-shadow(0 0 8px #5cff9a)"/></svg>
+ <div class="note2"><b>스테이플턴의 실험 노트</b><p>야광 이끼는 <em>1분마다 두 배</em>로 늘어난다.<br>이끼 <em>한 덩이</em>를 동굴에 두면 <em>60분</em> 만에 동굴이 가득 찬다.</p><p>오늘은 처음부터 <em>두 덩이</em>를 두었다.<br>동굴이 가득 차는 건 몇 분 뒤일까?</p></div></div>`}
+function dirHTML(){const D=[['↑','UP','2'],['→','RIGHT','1'],['←','LEFT','2'],['↓','DOWN','2 3 1']];
+ return `<div class="dirwall">${D.map(([a,w,n])=>`<div class="dw"><span class="ar">${a}</span><b>${w}</b><i>${n}</i></div>`).join('')}</div><p class="dirnote">야광 가루 자루에 긁혀 있는 글씨 · 여섯 글자</p>`}
+function shopHTML(){return `<div class="shop"><h4>그림펜 마을 잡화점</h4><div class="goods"><div><span>🦮</span><b>개목걸이</b></div><span class="plus">+</span><div><span>🪢</span><b>개줄</b></div><span class="plus">=</span><div class="price">110<small>실링</small></div></div>
+ <p>개줄은 개목걸이보다 <em>100실링</em> 더 비싸다.</p><p>그날 밤 한 손님이 <em>개목걸이 하나만</em> 사면서<br><em>100실링</em>짜리 지폐를 냈다.</p></div>`}
+function sheepHTML(){return `<div class="farm"><div class="frow"><span>🐕🐕🐕🐕🐕</span><b>5마리</b><i>5분</i><span>🐑🐑🐑🐑🐑</span><b>5마리</b></div><div class="frow q"><span>🐕 × ?</span><b>?마리</b><i>100분</i><span>🐑 × 100</span><b>100마리</b></div><p>양치기 개 다섯 마리가 5분 동안 양 다섯 마리를 우리에 몰아넣는다.<br>같은 빠르기로 100분 동안 양 100마리를 몰아넣으려면?</p></div>`}
+function menuHTML(){const W=[['소시지 구이','스크램블드에그','감자 수프','생선튀김','오믈렛'],['삶은 달걀과 빵','고기 파이','콩 스튜','달걀 샌드위치','양고기 구이']];
+ return `<div class="menuw"><table class="menu"><tr><th></th>${'월화수목금'.split('').map(d=>`<th>${d}</th>`).join('')}</tr>${W.map((r,i)=>`<tr><th>${i+1}주</th>${r.map(x=>`<td>${x}</td>`).join('')}</tr>`).join('')}</table>
+ <div class="blk"><small>헛간 버튼 자물쇠</small><div class="bgr">${['1','2','3','4','5','6','7','8','9','0'].map(n=>`<span>${n}</span>`).join('')}</div></div></div>
+ <div class="sticky2">녀석이 제일 좋아하는 건 <b>달걀</b>!<br>그런 날의 자리를 누를 것. 작은 수부터.</div>`}
 
 const EP={
  key:'sherlock-ep5-hound-v1',prefix:'z',minutes:40,hint1:180,hint2:360,
@@ -818,7 +782,7 @@ const EP={
  hintName:'수수께끼의 쪽지',hintSvg:SHADOW,hintNote:'황야 어딘가에서 누군가 쪽지를 보내온다. 아주 짧다. 한 발자국에 머문 지 3분, 6분이 지나면 하나씩 도착한다.',
  lastBtn:'▶ 헛간 문을 연다',
  music:{T:-2,bpm:86,rain:.05},
- ans:[["qyo78yrsip","4arshfywrg"],["wahangwv7x"],["1lbhtnbn41j","1b0b2wedjtb"],["n82ch3siia"],["2dapplkb9jz"],["y0tdonhxoo"],["v07xjgfxu6"],["1ar4bezmo8s"],["z9lxjb1zvu","19flhujmecw"],["1k3maufq8xy"]],
+ ans:[["qyo78yrsip","4arshfywrg"],["1fh5tsvcvpn"],["22adgrd9oh0"],["n82ch3siia"],["nzcpydzl1r"],["283rocpoe2i"],["s3jg9w1zs0","h93t40m0fh","19r0u6qfd1i","2cp41y92f4f"],["d8odnw9p0x"],["1rt6mxvb4rv"],["trkbc7vvc2"]],
  intro:{tag:'LETTER',stamp:'경 고',to:'TO: 셜록 홈즈 귀하<br>FROM: 헨리 바스커빌 경',cls:'moor',hintline:'✉️ 다트무어에서 온 편지가 도착했습니다. 눌러서 열어 보세요',sig:'Sherlock Holmes',
   letter:[`모리아티 사건이 끝나 한숨 돌리나 했더니, 새 의뢰인이 찾아왔네.
 다트무어의 바스커빌 저택을 물려받은 헨리 경일세. 그가 받은 편지를 보게.`,
@@ -831,20 +795,20 @@ const EP={
   desc:'위 탐정은 다트무어 황야에 찍힌 열 개의 발자국을 모두 따라가<br>바스커빌가 괴물 개 전설의 진실을 밝혀냈기에 이 훈장을 드립니다.',
   tail:'To be continued… 셜록 홈즈의 다음 사건',again:'훈장 다시 보기'},
  finaleSVG:shedSVG,
- finaleText:n=>`자물쇠가 풀리고, 헛간 문이 덜컹 올라갔다.
+ finaleText:n=>`버튼 네 개를 누르자, 헛간 문이 덜컹 올라갔다.
 
 어둠 속에서 초록빛으로 번쩍이는 거대한 개 한 마리가 걸어 나왔다.
 …그리고 ${n} 탐정의 손을 핥았다.
 
 “이 녀석이 전설의 괴물이었군!” 왓슨이 웃음을 터뜨렸다.
-털에는 야광 물감이 잔뜩 묻어 있었다.
+털에는 야광 가루가 잔뜩 묻어 있었다.
 
 그때 황야 쪽에서 낯익은 목소리가 들렸다.
 “훌륭하네, 탐정.”
 수수께끼의 쪽지를 보내던 사람은 바로 셜록 홈즈였다!
 런던에 있는 척하며, 내내 황야의 오두막에 숨어 지켜보고 있었던 것이다.
 
-스테이플턴은 바스커빌 저택의 보물을 차지하려고 개에게 야광 물감을 칠해 사람들을 겁주었다고 털어놓았다.
+스테이플턴은 바스커빌 저택의 보물을 차지하려고 개에게 야광 가루를 발라 사람들을 겁주었다고 털어놓았다.
 레스트레이드 경감이 그를 데려갔고, 순한 개는 헨리 경의 새 가족이 되었다.
 
 “이 녀석 이름은 뭐라고 지을까?”
@@ -858,84 +822,77 @@ const EP={
   words:['WHITE의 2번째 → H','ORANGE의 1번째 → O','BLUE의 3번째 → U','GREEN의 5번째 → N','RED의 3번째 → D'],
   ded:'색깔 이름에서 숫자 번째 글자를 고르면 <b>HOUND</b>, 사냥개! 바스커빌가에 내려오는 <em>괴물 개 전설</em>이 다시 깨어났다. 왓슨과 함께 다트무어로 향한다.',
   quote:'“세상은 아무도 관찰하지 않는 뻔한 것들로 가득하다네.”'},
- {place:'다트무어 · 바스커빌가 묘지',title:'이끼 낀 비석',icon:'🪦',
-  brief:'저택 뒤편 가족 묘지. 전설 속 주인공 <em>휴고 바스커빌</em>의 비석에 낯선 글자로 해가 새겨져 있다. 비석 옆 안내판에 읽는 법이 적혀 있다.',
-  ev:()=>`<div class="tombw">${tombSVG()}</div>`,
-  q:'전설이 시작된 해는?',type:'num',len:4,
-  hints:['안내판을 보고 글자를 숫자로 바꿔 보게.','큰 수부터 차례로 더하되, 작은 수가 큰 수 앞에 오면…'],
-  words:['M = 1000','DCC = 700','XL = 40','II = 2'],
-  ded:'M(1000) + DCC(700) + XL(40) + II(2) = <b>1742</b>. 저택 서재의 오래된 금고 번호와 같다! 금고 속 전설 문서에는 “괘종시계가 멈추는 밤, 개가 운다”라고 적혀 있었다.',
+ {place:'바스커빌 저택 · 서재',title:'무지개 뜬 창가의 책장',icon:'📚',
+  brief:'전설 문서가 든 금고는 서재에 있다. 헨리 경의 삼촌은 <em>“번호는 책장에 숨겨 두었다”</em>는 메모만 남겼다. 비가 그친 창밖에는 <em>무지개</em>가 떠 있다.',
+  ev:()=>booksHTML(),
+  q:'서재 금고의 비밀번호는?',type:'num',len:4,
+  hints:['책 제목 속에 숫자가 숨어 있다.','책을 꽂힌 순서대로 읽으면 열리지 않는다. 창밖을 보게.'],
+  words:['두 도시 이야기 → 2','오만과 편견 → 5','삼총사 → 3','구운몽 → 9','빨 · 노 · 초 · 파'],
+  ded:'책 제목의 숫자(두 · 오 · 삼 · 구)를 책 색깔의 <b>무지개 순서</b>(빨 · 노 · 초 · 파)대로 놓으면 <b>2539</b>. 금고 안에는 전설 문서와 집사 배리모어의 일기장이 들어 있었다.',
   quote:'“자료 없이 이론을 세우는 것은 큰 실수지.”'},
- {place:'바스커빌 저택 · 현관 홀',title:'거울 속의 괘종시계',icon:'🪞',
-  brief:'현관 홀의 괘종시계가 멈춰 있다. 그런데 시계는 큰 기둥에 가려, 맞은편 <em>거울</em>로만 볼 수 있다. 하인은 시계가 멈춘 그 시각에 개 울음소리를 들었다고 한다.',
-  ev:()=>mirrorSVG(),
-  q:'괘종시계가 실제로 멈춘 시각은?',type:'num',len:4,fmt:'숫자 4자리 (예: 0815)',
-  hints:['숫자 모양을 자세히 보게.','거울은 좌우를 바꾼다.'],
-  words:['거울 속 = 2시 25분?','좌우를 뒤집으면','실제 = 9시 35분'],
-  ded:'거울 속 시계는 좌우가 뒤집혀 2시 25분처럼 보였을 뿐, 실제로는 <b>9시 35분</b>. 바로 그 시각, 황야의 낡은 돌문 쪽에서 불빛이 깜빡였다고 한다!',
-  quote:'“분명한 사실만큼 사람을 잘 속이는 것도 없지.”'},
+ {place:'바스커빌 저택 · 집사의 일기',title:'일곱 줄의 일기',icon:'🌈',
+  brief:'집사 배리모어가 개 울음소리를 들은 밤에 쓴 일기. 일기는 딱 <em>일곱 줄</em>. 마지막 장 구석에 이상한 메모가 적혀 있다.',
+  ev:()=>rainbowDiary(),
+  q:'보 파 주 = ?',type:'ko',len:3,fmt:'한글 3글자',
+  hints:['일곱 줄, 그리고 일곱 가지 색.','‘빨 노 남 초 = 바스커빌’을 먼저 풀어 보게.'],
+  words:['빨주노초파남보 = 1~7번째 줄','빨 → 바 · 노 → 스 · 남 → 커 · 초 → 빌','보 → 오 · 파 → 두 · 주 → 막'],
+  ded:'무지개 일곱 색이 일곱 줄의 첫 글자를 가리킨다. 보 · 파 · 주 → <b>오두막</b>! 배리모어는 황야의 <em>버려진 오두막</em>에서 누군가 산다는 걸 숨기고 있었다.',
+  quote:'“평범한 것만큼 기이한 것도 없다네.”'},
  {place:'다트무어 황야 · 낡은 돌문',title:'영어 끝말잇기 자물쇠',icon:'🔗',
-  brief:'황야로 이어지는 돌문에 숫자 자물쇠가 걸려 있다. 문에는 영어 단어가 줄지어 새겨져 있고, 몇 개는 빈칸이다.',
+  brief:'오두막으로 이어지는 돌문에 숫자 자물쇠가 걸려 있다. 문에는 영어 단어가 줄지어 새겨져 있고, 몇 개는 빈칸이다.',
   ev:()=>chainHTML(),
   q:'빈칸에 들어갈 숫자를 차례대로 적어라.',type:'num',len:3,fmt:'숫자 3자리',
   hints:['영어로 하는 끝말잇기라네.','칸의 개수도 단서다.'],
   words:['SEVEN → NINE','NINE → EIGHT','EIGHT → TWO','TWO → ONE → ELEVEN'],
-  ded:'끝 글자로 시작하는 숫자를 이으면 NINE · TWO · ONE → <b>921</b>. 돌문이 열리고, 황야 한가운데 <em>버려진 오두막</em>이 보인다.',
+  ded:'끝 글자로 시작하는 숫자를 이으면 NINE · TWO · ONE → <b>921</b>. 돌문이 열리고, 황야 한가운데 오두막이 보인다.',
   quote:'“나의 방법은 사소한 것들을 관찰하는 데서 시작하지.”'},
- {place:'다트무어 황야 · 버려진 오두막',title:'오두막 문의 그림 계산',icon:'🦉',
-  brief:'오두막 문에 누군가 분필로 <em>그림 계산</em>을 적어 두었다. 문고리에는 두 자리 자물쇠. 황야에 사는 동물마다 숫자가 하나씩 숨어 있다.',
-  ev:()=>eqHTML(),
-  q:'마지막 줄의 답은?',type:'num',len:2,fmt:'숫자 2자리',
-  hints:['위에서부터 하나씩 값을 구하게.','계산의 순서를 잊지 말게.'],
-  words:['🐕 = 6','🐈 = 3','🦉 = 2','6 × 2 + 3'],
-  ded:'개 6, 고양이 3, 부엉이 2. 곱셈부터: 6 × 2 + 3 = <b>15</b>. 오두막 안에는 황야 지도와 길 안내 쪽지가 있었다.',
+ {place:'다트무어 황야 · 버려진 오두막',title:'하트 기호 계산',icon:'💛',
+  brief:'오두막 문에 누군가 분필로 <em>하트 기호 계산</em>을 적어 두었다. 문고리에는 두 자리 자물쇠. 마지막 두 줄의 답이 비밀번호다.',
+  ev:()=>heartHTML(),
+  q:'마지막 두 줄의 답을 이어 적어라.',type:'num',len:2,fmt:'숫자 2자리',
+  hints:['💛는 우리가 아는 계산 두 가지를 섞은 것이다.','답은 언제나 한 자리 수다.'],
+  words:['4 × 4 = 16 → 1 + 6 = 7','6 × 7 = 42 → 4 + 2 = 6','9 × 8 = 72 → 7 + 2 = 9'],
+  ded:'💛는 <b>곱한 뒤 각 자리 수를 더하는</b> 계산! 6💛7 = 6, 9💛8 = 9 → <b>69</b>. 오두막 안에는 동굴 지도와 스테이플턴이라는 이름이 적힌 실험 노트가 있었다.',
   quote:'“모든 문제는 풀고 나면 어린애 장난처럼 단순해 보이지.”'},
- {place:'버려진 오두막 · 황야 지도',title:'별에서 시작하는 길',icon:'🗺️',
-  brief:'지도에는 글자 칸이 바둑판처럼 그려져 있고, 한가운데 ★ 표시가 있다. 쪽지에는 ★에서 출발하는 <em>길 안내</em>가 적혀 있다.',
-  ev:()=>mapHTML(),
-  q:'길이 가리키는 곳은?',type:'ko',len:4,fmt:'한글 4글자',
-  hints:['★에서 출발해 한 줄씩 따라가게.','멈춘 칸의 글자만 읽는다.'],
-  words:['★ → 북 2 → 검','동 2 → 은','남 3 · 서 1 → 바','서 3 → 위'],
-  ded:'멈춘 칸의 글자를 이으면 <b>검은바위</b>! 황야에서 가장 높은 검은 바위 아래, 구멍이 숭숭 뚫린 카드 한 장이 끼워져 있었다.',
-  quote:'“게임이 시작되었네!”'},
- {place:'다트무어 · 검은바위 아래',title:'구멍 뚫린 카드',icon:'🕳️',
-  brief:'바위 틈의 글자판과 <em>구멍 뚫린 카드</em>. 카드에는 화살표가 그려져 있고, 뒷면에는 이렇게 적혀 있다. <em>“화살표는 언제나 북쪽을 가리켜야 한다.”</em>',
-  ev:()=>grilleHTML(),
-  mount(root){let k=0;const card=$('.gcard',root);card.innerHTML=grilleCard(0);
-   $$('[data-g]',root).forEach(b=>b.addEventListener('click',()=>{AU.flip();if(b.dataset.g==='cover'){card.hidden=!card.hidden;b.textContent=card.hidden?'🃏 카드 덮기':'🃏 카드 치우기'}else{k=(k+1)%4;card.innerHTML=grilleCard(k);if(card.hidden){card.hidden=false;$('[data-g=cover]',root).textContent='🃏 카드 치우기'}}}))},
-  q:'카드가 알려 주는 장소는?',type:'ko',len:4,fmt:'한글 4글자',
-  hints:['카드는 돌릴 수 있다. 그런데 어느 쪽이 북쪽일까?','글자판의 나침반을 다시 보게.'],
-  words:['이 글자판의 북쪽 = 오른쪽','화살표를 오른쪽으로','그 · 림 · 펜 · 늪'],
-  ded:'글자판의 북쪽은 <b>오른쪽</b>! 화살표를 오른쪽으로 돌려 덮으면 <b>그림펜늪</b>이 나타난다. 한 번 빠지면 나올 수 없다는 무시무시한 늪이다.',
-  quote:'“평범한 것만큼 기이한 것도 없다네.”'},
- {place:'그림펜 늪 · 징검다리',title:'늪 위의 징검다리',icon:'🪨',
-  brief:'늪을 건너는 징검다리. 돌마다 번호가 새겨져 있지만, 마지막 두 돌은 <em>이끼</em>에 덮여 보이지 않는다. 엉뚱한 돌을 밟으면 늪에 빠진다!',
-  ev:()=>stonesSVG(),
-  q:'이끼 낀 두 돌의 번호를 이어 적어라.',type:'num',len:4,fmt:'숫자 4자리',
-  hints:['번호에는 규칙이 있다.','바로 앞의 두 돌을 보게.'],
-  words:['1 + 1 = 2','2 + 3 = 5','5 + 8 = 13','8 + 13 = 21'],
-  ded:'앞의 두 수를 더하면 다음 수가 된다. 8 다음은 <b>13</b>, 그다음은 <b>21</b> → 1321. 무사히 늪을 건너자 <em>박물학자의 오두막</em>이 나타났다.',
-  quote:'“작은 것이야말로 가장 중요한 법이지.”'},
- {place:'그림펜 늪 건너편 · 박물학자의 오두막',title:'암호 바퀴',icon:'🎡',
-  brief:'오두막 책상 위에 암호로 쓴 편지와 <em>알파벳 암호 바퀴</em>. 편지에 범인의 이름이 숨어 있다. 바퀴의 안쪽 원은 돌릴 수 있다.',
-  ev:()=>wheelSVG(),
-  mount(root){let k=0;const g=$('.inner',root);$$('[data-w]',root).forEach(b=>b.addEventListener('click',()=>{k+=+b.dataset.w;g.setAttribute('transform',`rotate(${k*360/26} 160 160)`);AU.click()}))},
-  q:'범인의 이름은?<small>영어로 적어라.</small>',type:'en',len:9,fmt:'영어 9글자',
-  hints:['열쇠가 몇인지부터 알아내게.','바깥 글자 바로 안쪽의 글자를 읽어라.'],
-  words:['열쇠 = 4 − 1 = 3','V → S · W → T · D → A','S T A P L E T O N'],
-  ded:'안쪽 원을 세 칸 돌리면 VWDSOHWRQ → <b>STAPLETON</b>! 범인은 친절한 이웃인 척하던 박물학자 <b>스테이플턴</b>이었다. 그의 헛간에서 낑낑대는 소리가 들린다.',
+ {place:'황야 · 야광 이끼 동굴',title:'두 배로 자라는 이끼',icon:'🍀',
+  brief:'동굴 입구는 시간 자물쇠로 잠겨 있다. <em>동굴이 이끼로 가득 차는 시각</em>에 맞춰야 열린다고 한다. 바위에 실험 노트 한 장이 끼워져 있다.',
+  ev:()=>caveHTML(),
+  q:'동굴이 가득 차는 것은 몇 분 뒤?',type:'num',len:2,fmt:'숫자 2자리',
+  hints:['두 덩이라고 해서 시간이 절반이 되는 건 아니다.','한 덩이는 1분 뒤 몇 덩이가 될까?'],
+  words:['1분마다 두 배','한 덩이 → 1분 뒤 두 덩이','60 − 1 = 59'],
+  ded:'한 덩이는 1분 뒤 두 덩이가 된다. 처음부터 두 덩이라면 1분 앞서 출발한 셈 → <b>59분</b>. 동굴 안쪽 벽에서 빈 자루 하나를 찾았다.',
+  quote:'“분명한 사실만큼 사람을 잘 속이는 것도 없지.”'},
+ {place:'야광 이끼 동굴 · 안쪽 벽',title:'자루에 긁힌 화살표',icon:'✨',
+  brief:'동굴 구석의 빈 자루. 손에 묻으면 어둠 속에서 초록빛으로 빛난다. 자루에는 <em>화살표 네 개</em>와 숫자가 긁혀 있다. 이 자루에 무엇이 들어 있었을까?',
+  ev:()=>dirHTML(),
+  q:'자루에 들어 있던 것은?<small>영어로 적어라.</small>',type:'en',len:6,fmt:'영어 6글자',
+  hints:['숫자는 그 단어의 몇 번째 글자인가?','게임 속 비밀 명령처럼, 위 · 아래 · 왼쪽 · 오른쪽 순서로.'],
+  words:['UP의 2번째 → P','DOWN의 2·3·1번째 → O W D','LEFT의 2번째 → E','RIGHT의 1번째 → R','↑ ↓ ← →'],
+  ded:'글자를 ↑ ↓ ← → 순서로 늘어놓으면 <b>POWDER</b>, 가루! 괴물 개가 초록빛으로 빛났던 건 <b>야광 가루</b> 때문이었다. 자루에는 <em>그림펜 마을 잡화점</em> 꼬리표가 달려 있다.',
   quote:'“불가능한 것을 지우고 남은 것은, 아무리 믿기 어려워도 진실이다.”'},
- {place:'스테이플턴의 헛간',title:'빛나는 발자국',icon:'🔦',
-  brief:'헛간 문에는 네 자리 자물쇠. 벽에는 분필 낙서뿐이다. 그런데 바닥에 <em>야광 물감</em>이 묻은 발자국이 찍혀 있다… 스테이플턴의 책상에서 <em>자외선 손전등</em>을 찾았다.',
-  ev:()=>uvHTML(),
-  mount(root){const w=$('.uvwall',root),L=$('.uvlayer',root),b=$('[data-uv]',root);if(!w)return;let on=false;
-   b.addEventListener('click',e=>{e.stopPropagation();on=!on;w.classList.toggle('on',on);b.textContent=on?'🔦 손전등 끄기':'🔦 자외선 손전등 켜기';AU.click();if(on)toast('벽 위를 움직여 비춰 보세요 (손가락으로 끌어도 돼요)',2200)});
-   const mv=e=>{if(!on)return;const r=w.getBoundingClientRect();L.style.setProperty('--x',(e.clientX-r.left)+'px');L.style.setProperty('--y',(e.clientY-r.top)+'px')};
-   w.addEventListener('pointermove',mv);w.addEventListener('pointerdown',mv);w.addEventListener('pointerleave',()=>{L.style.setProperty('--x','-300px')})},
-  q:'헛간 자물쇠의 비밀번호는?',type:'num',len:4,
-  hints:['손전등으로 벽 구석구석을 비춰 보게.','빛나는 숫자마다 발자국이 몇 개인가?'],
-  words:['자외선 → 야광 물감이 빛난다','발자국 1개 → 7','2개 → 2 · 3개 → 9','4개 → 4'],
-  ded:'자외선을 비추자 숫자들이 빛났다! 발자국 수 순서대로 <b>7294</b>. 철컥, 헛간 자물쇠가 풀렸다…',
+ {place:'그림펜 마을 · 잡화점',title:'개목걸이 거스름돈',icon:'🦮',
+  brief:'잡화점 주인은 야광 가루를 사 간 손님을 똑똑히 기억한다. <em>“그 손님에게 준 거스름돈만 맞히면 이름을 알려 주지!”</em>',
+  ev:()=>shopHTML(),
+  q:'손님이 받은 거스름돈은 몇 실링?',type:'num',len:2,fmt:'숫자 2자리',
+  hints:['“개목걸이가 10실링”은 틀렸다.','둘의 차이가 100, 합이 110.'],
+  words:['목걸이 = □','개줄 = □ + 100','□ + □ + 100 = 110','□ = 5 → 100 − 5 = 95'],
+  ded:'개목걸이는 5실링, 개줄은 105실링. 거스름돈은 <b>95실링</b>! 주인이 말했다. “그 손님은 늪 건너 사는 박물학자 <b>스테이플턴</b>이었소.”',
+  quote:'“나는 추측하지 않네. 추측은 논리를 망치는 버릇이지.”'},
+ {place:'스테이플턴의 농장 · 개집들',title:'양치기 개 수수께끼',icon:'🐑',
+  brief:'스테이플턴의 농장에는 개집이 줄지어 있다. 번호판 위에 수수께끼가 붙어 있다. <em>“진짜 녀석은 이 답의 번호 개집에 있었다.”</em>',
+  ev:()=>sheepHTML(),
+  q:'개는 몇 마리 필요할까?',type:'num',len:1,fmt:'숫자 1자리',
+  hints:['개 한 마리는 5분에 양 몇 마리를 몰까?','시간이 늘어나면 한 마리가 하는 일도 늘어난다.'],
+  words:['개 1마리 = 5분에 양 1마리','100분이면 1마리가 20마리','100 ÷ 20 = 5'],
+  ded:'개 한 마리가 100분 동안 양 20마리를 몰 수 있으니, 100마리에는 <b>5마리</b>면 충분하다. 5번 개집에는 커다란 발자국과 야광 가루, 그리고 <em>헛간 쪽으로 이어진 자국</em>이!',
+  quote:'“작은 것이야말로 가장 중요한 법이지.”'},
+ {place:'스테이플턴의 헛간 · 부엌',title:'개밥 식단표',icon:'🥚',
+  brief:'헛간 문에는 <em>버튼 열 개짜리 자물쇠</em>. 옆 부엌 벽에는 2주 치 식단표와 쪽지가 붙어 있다. 헛간 안에서 낑낑대는 소리가 들린다.',
+  ev:()=>menuHTML(),
+  q:'헛간 자물쇠의 비밀번호는?',type:'num',len:4,fmt:'숫자 4자리 (작은 수부터)',
+  hints:['식단표와 자물쇠의 모양을 나란히 비교해 보게.','이름에 ‘달걀’이 없는 달걀 요리도 있다.'],
+  words:['식단표 2 × 5 = 자물쇠 2 × 5','스크램블드에그 → 2','오믈렛 → 5','삶은 달걀 → 6 · 달걀 샌드위치 → 9'],
+  ded:'달걀 요리가 나오는 칸을 자물쇠의 같은 자리에 맞추면 2 · 5 · 6 · 9 → <b>2569</b>. 철컥, 헛간 자물쇠가 풀렸다…',
   quote:'“이제 모든 조각이 맞춰졌군.”'},
  ]};
 
